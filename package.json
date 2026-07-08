@@ -1,0 +1,19 @@
+{
+  "name": "mumu-server",
+  "version": "1.0.0",
+  "description": "暮暮聊天服务器 - 手机访问PC上的暮暮",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tunnel": "powershell -ExecutionPolicy Bypass -File tunnel.ps1",
+    "go": "powershell -ExecutionPolicy Bypass -File start-all.ps1"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "adm-zip": "^0.5.18",
+    "archiver": "^8.0.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "openai": "^6.38.0"
+  }
+}
