@@ -2,9 +2,9 @@
   "name": "mumu-server",
   "version": "1.0.0",
   "description": "暮暮聊天服务器 - 手机访问PC上的暮暮",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "tunnel": "powershell -ExecutionPolicy Bypass -File tunnel.ps1",
     "go": "powershell -ExecutionPolicy Bypass -File start-all.ps1"
   },
